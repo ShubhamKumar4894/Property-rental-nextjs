@@ -31,3 +31,9 @@ It includes authentication, secure routes, property CRUD operations, and messagi
 
 ---
 
+## Project Screenshots
+
+![Screenshot 1](assets/images/photo-collage.png.png)
+
+![Screenshot 2](assets/images/photo-collage.png%20(1).png)
+
