@@ -4,9 +4,8 @@ import PropertyCard from "@/components/PropertyCard";
 import Pagination from "@/components/Pagination";
 const PropertiesPage = async ({ searchParams: { page = 1, pageSize = 9 } }) => {
   const skip = (page - 1) * pageSize;
-  const total = await Property.countDocuments({});
-
   await connectDB();
+  const total = await Property.countDocuments({});
   const properties = await Property.find({}).skip(skip).limit(pageSize).lean();
   const showPagination = total > pageSize;
   return (
