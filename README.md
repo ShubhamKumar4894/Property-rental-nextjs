@@ -37,3 +37,20 @@ It includes authentication, secure routes, property CRUD operations, and messagi
 
 ![Screenshot 2](assets/images/photo-collage.png%20(1).png)
 
+## Install Dependencies
+
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+
+# 2. Navigate into the project directory
+cd your-repo-name
+
+# 3. Install dependencies
+npm install   # or yarn install
+
+# 4. Start the development server
+npm run dev   # or yarn dev
+
+
