@@ -1,5 +1,14 @@
-export default function Page() {
+import FeaturedProperies from "@/components/FeaturedProperties";
+import Hero from "@/components/Hero";
+import HomeProperties from "@/components/HomeProperties";
+import InfoBoxes from "@/components/InfoBoxes";
+export default function HomePage() {
   return (
-    <h1 className="text-red-800">This is the landing page</h1>
+    <>
+      <Hero />
+      <InfoBoxes />
+      <FeaturedProperies />
+      <HomeProperties />
+    </>
   );
 }

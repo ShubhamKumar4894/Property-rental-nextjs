@@ -33,9 +33,14 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 .env
+/node_modules
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# not used in project
+properties.json
+_theme_files/
